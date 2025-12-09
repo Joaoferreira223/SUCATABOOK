@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Move o chat Pulse para o canto inferior esquerdo */
+.pulse-livechat-widget {
+  right: auto !important;
+  left: 20px !important;
+  bottom: 20px !important;
+}

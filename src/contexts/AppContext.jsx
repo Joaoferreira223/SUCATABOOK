@@ -15,7 +15,8 @@ export const AppProvider = ({ children }) => {
   const [purchases, setPurchases] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const API_BASE = 'http://localhost:8080'; // ajuste conforme sua API
+const API_BASE = import.meta.env.VITE_API_URL || 'https://api-tcc-1yg8.onrender.com';
+
 
   const materials = [
     'Ferro', 'Alumínio', 'Cobre', 'Bronze', 'Latão',

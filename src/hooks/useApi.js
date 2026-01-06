@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+const API_BASE_URL = import.meta.env.VITE_API_URL;
+
 /**
  * Custom hook para chamadas à API
  * Integrado ao AuthContext
@@ -8,7 +10,7 @@ export const useApi = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-const API_BASE_URL = import.meta.env.VITE_API_URL;
+
 
 
   // 🔹 Pega token do localStorage

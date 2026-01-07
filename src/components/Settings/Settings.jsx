@@ -7,7 +7,8 @@ const Settings = () => {
   // Exportar dados Excel
   const handleExport = async () => {
     try {
-      const response = await fetch('http://localhost:8080/api/itens_reciclaveis/exportar');
+     const response = await fetch(
+  'https://api-tcc-1yg8.onrender.com/api/itens_reciclaveis/exportar');
       if (!response.ok) throw new Error('Erro ao exportar dados');
 
       const blob = await response.blob();

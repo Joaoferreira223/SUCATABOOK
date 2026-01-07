@@ -34,10 +34,13 @@ const Header = ({ activeTab }) => {
             />
           </div>
           
-          <button className="relative p-2 text-gray-400 hover:text-gray-600 transition-colors">
+          <button
+            onClick={() => window.open('https://www.youtube.com', '_blank')}
+            className="relative p-2 text-gray-400 hover:text-gray-600 transition-colors">
             <Bell size={20} />
             <span className="absolute top-0 right-0 w-2 h-2 bg-red-500 rounded-full"></span>
           </button>
+
           
           <div className="flex items-center space-x-2">
             <div className="flex items-center space-x-2 p-2 text-gray-700">

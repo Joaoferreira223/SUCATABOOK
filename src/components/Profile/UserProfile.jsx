@@ -49,13 +49,19 @@ const UserProfile = () => {
         <div className="flex items-center justify-between mb-6">
           <h3 className="text-lg font-semibold text-gray-900">Perfil do Usuário</h3>
           {!isEditing ? (
-            <button
-              onClick={() => setIsEditing(true)}
-              className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              <Edit size={16} />
-              <span>Editar</span>
-            </button>
+          <button
+  onClick={() => {
+    window.open(
+      "https://www.youtube.com/watch?v=SEU_VIDEO_AQUI",
+      "_blank"
+    );
+  }}
+  className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+>
+  <Edit size={16} />
+  <span>Editar</span>
+</button>
+
           ) : (
             <div className="flex space-x-2">
               <button

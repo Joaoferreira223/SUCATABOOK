@@ -52,7 +52,7 @@ const UserProfile = () => {
           <button
   onClick={() => {
     window.open(
-      "https://www.youtube.com/watch?v=SEU_VIDEO_AQUI",
+      "https://youtu.be/srvxMN0UsYo?si=rDYdBZW0XwJqRdxT",
       "_blank"
     );
   }}

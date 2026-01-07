@@ -35,7 +35,7 @@ const Header = ({ activeTab }) => {
           </div>
           
           <button
-            onClick={() => window.open('https://www.youtube.com', '_blank')}
+            onClick={() => window.open('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHluMm1pc3duMHh1cDA0MjF1eTJjMWFtdXdvbjA5bmVzbnV2cWFpeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oKIPeSlkkwh3Pt6A8/giphy.gif', '_blank')}
             className="relative p-2 text-gray-400 hover:text-gray-600 transition-colors">
             <Bell size={20} />
             <span className="absolute top-0 right-0 w-2 h-2 bg-red-500 rounded-full"></span>
